@@ -57,8 +57,8 @@ The infrastructure includes:
 ### Connecting to EC2
 To connect to the EC2 instance:
 
-1. Install the Session Manager plugin:
-   - Installation guide for different operating systems
+1. Install the Session Manager plugin
+
 2. Start a session using AWS CLI:
     ```bash
     aws ssm start-session --target i-xxxxxxxxxxxxxxxxx
