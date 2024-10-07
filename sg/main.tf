@@ -7,7 +7,7 @@ resource "aws_security_group" "jb_sg" {
 
   tags = {
     role = "private"
-    project = "plobal"
+    project = "blog"
     environment = "staging"
     Terraform = "true"
   }
@@ -36,7 +36,7 @@ resource "aws_security_group" "jb_sg" {
 
     tags = {
     role = "private"
-    project = "plobal"
+    project = "blog"
     environment = "staging"
     Terraform = "true"
   }
